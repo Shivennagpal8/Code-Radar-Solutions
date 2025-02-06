@@ -3,7 +3,7 @@
 int main() {
     int a;
     int LSB= a & 1;
-    scanf("%d%d", &a,&LSB);
+    scanf("%d%d", &a);
     printf("%d", LSB);
     return 0;
 }
