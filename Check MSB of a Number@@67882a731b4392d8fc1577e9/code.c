@@ -8,7 +8,11 @@ int main() {
         msb = num & 1;
         num >>= 1; // Right shift to check the next bit
     }
-
-    printf(" Set");
+    if(msb==1){
+        printf("Set");
+    }
+    else{
+        printf("Not set")
+    }
     return 0;
 }
