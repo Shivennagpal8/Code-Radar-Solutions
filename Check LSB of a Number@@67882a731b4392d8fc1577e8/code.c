@@ -2,8 +2,8 @@
 
 int main() {
     int a;
-    int LSB= a & 1;
     scanf("%d%d", &a);
+    int LSB= a & 1;
     printf("%d", LSB);
     return 0;
 }
