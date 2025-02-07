@@ -1,4 +1,4 @@
-// #include <stdio.h>
+#include <stdio.h>
 
 // int main() {
 //     char ch;
@@ -15,19 +15,19 @@
 //     return 0;
 // }
 
-nt main() {
+int main() {
     char ch;
 
     scanf("%c", &ch);
 
     if(ch >='A' && ch<='Z'){
-        printf("upper case");
+        printf("Uppercase");
     }
     else if (ch >= 'a' && ch<='z'){
-        printf("lower case");
+        printf("Lowercase");
     }
     else{
-        printf("not english letter");
+        printf("Not english letter");
     }
 
 
