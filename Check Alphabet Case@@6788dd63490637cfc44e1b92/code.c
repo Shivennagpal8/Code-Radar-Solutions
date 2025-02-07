@@ -27,7 +27,7 @@ int main() {
         printf("Lowercase");
     }
     else{
-        printf("Not english letter");
+        printf("Not an alphabet");
     }
 
 
