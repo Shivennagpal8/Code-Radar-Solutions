@@ -3,7 +3,7 @@
 int main(){
     int a;
     scanf("%d", &a);
-    switch{
+    switch(a){
         case (a>=90):
             printf("A");
         case (a>=80 && a<90):
@@ -14,6 +14,5 @@ int main(){
             printf("D");
         case (a<60):
             printf("F");
-
     }
 }
