@@ -7,4 +7,5 @@ int main(){
         printf(i);
         i++;
     }
+    return 0;
 }
