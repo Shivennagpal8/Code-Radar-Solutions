@@ -1,7 +1,7 @@
 // Your code here...
 #include<stdio.h>
 int main(){
-    int a,i=1;
+    int a;
     scanf("%d", &a);
     // while(i<=a){
     //     printf(i);
@@ -9,6 +9,6 @@ int main(){
     // }
     // return 0;
     for(i=1;i<=a;i++){
-        printf(i);
+        printf("%i",i);
     }
 }
