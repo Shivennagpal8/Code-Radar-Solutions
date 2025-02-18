@@ -10,8 +10,10 @@ int main(){
         else{
             printf("Not Eligible");
         }
-    // else if(b==0){
-
-    // }
+    else if(b==0){
+        if(a>=18){
+            printf("Not Eligible");
+        }
+    }
     }
 }
