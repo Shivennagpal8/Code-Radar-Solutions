@@ -15,5 +15,8 @@ int main(){
         if(a>=18){
             printf("Not Eligible");
         }
+        else{
+            printf("Not Eligible");
+        }
     }
 }
