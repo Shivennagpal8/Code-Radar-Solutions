@@ -3,11 +3,6 @@
 int main(){
     int a,i;
     scanf("%d", &a);
-    // while(i<=a){
-    //     printf(i);
-    //     i++;
-    // }
-    // return 0;
     for(i=1;i<=a;i++){
         printf("%d ",i);
     }
