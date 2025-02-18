@@ -9,6 +9,6 @@ int main(){
     // }
     // return 0;
     for(i=1;i<=a;i++){
-        printf("%d",i);
+        printf("%d ",i);
     }
 }
